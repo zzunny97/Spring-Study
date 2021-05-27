@@ -1,17 +1,25 @@
 package project.order;
 
 import org.assertj.core.api.Assertions;
+import org.junit.Before;
 import org.junit.Test;
 
+import project.AppConfig;
 import project.member.Grade;
 import project.member.Member;
 import project.member.MemberService;
-import project.member.MemberServiceImpl;
 
 public class OrderServiceTest {
     
-    MemberService memberService = new MemberServiceImpl();
-    OrderService orderService = new OrderServiceImpl();
+    MemberService memberService;
+    OrderService orderService;
+    
+    @Before
+    public void beforeEach() {
+        AppConfig appConfig = new AppConfig();
+        memberService = appConfig.memberService();
+        orderService = appConfig.orderService();
+    }
     
     @Test
     public void createOrder() {

@@ -1,11 +1,20 @@
 package project.member;
 
 import org.assertj.core.api.Assertions;
+import org.junit.Before;
 import org.junit.Test;
+
+import project.AppConfig;
 
 public class MemberServiceTest {
     
-    MemberService memberService = new MemberServiceImpl();
+    MemberService memberService;
+    
+    @Before
+    public void beforeEach() {
+        AppConfig appConfig = new AppConfig();
+        memberService = appConfig.memberService();
+    }
     
     @Test
     public void join() {

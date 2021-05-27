@@ -1,16 +1,18 @@
 package project.order;
 
 import project.discount.DiscountPolicy;
-import project.discount.FixDiscountPolicy;
 import project.member.Member;
 import project.member.MemberRepository;
-import project.member.MemoryMemberRepository;
 
 public class OrderServiceImpl implements OrderService {
     
-    private final MemberRepository memberRepository = new MemoryMemberRepository();
+    private final MemberRepository memberRepository;
+    private final DiscountPolicy discountPolicy;
     
-    private final DiscountPolicy discountPolicy = new FixDiscountPolicy();
+    public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
+        this.memberRepository = memberRepository;
+        this.discountPolicy = discountPolicy;
+    }
     
     
     @Override
