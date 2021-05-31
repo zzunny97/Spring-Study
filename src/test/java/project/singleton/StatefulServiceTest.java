@@ -20,11 +20,7 @@ public class StatefulServiceTest {
         statefulService2.order("userB", 20000);
         
         // ThreadA: 사용자 A가 주문 금액 조회
-        int price = statefulService1.getPrice();
-
-        Assertions.assertThat(statefulService1).isEqualTo(statefulService2);
-        Assertions.assertThat(price).isNotSameAs(10000);
-        Assertions.assertThat(price).isSameAs(20000);
+        Assertions.assertThat(statefulService1.getPrice()).isEqualTo(20000);
     }
     
     static class TestConfig {
