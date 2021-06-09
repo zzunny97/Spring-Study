@@ -1,31 +1,29 @@
 package project.member;
 
 import org.assertj.core.api.Assertions;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import project.AppConfig;
 
-public class MemberServiceTest {
-    
-    MemberService memberService;
-    
-    @Before
-    public void beforeEach() {
-        AppConfig appConfig = new AppConfig();
-        memberService = appConfig.memberService();
-    }
-    
+/**
+ * MemberServiceTest
+ */
+class MemberServiceTest {
+
+    AppConfig appConfig = new AppConfig();
+    MemberService memberService = appConfig.memberService();
+
     @Test
-    public void join() {
-        // given
+    void join() {
+        System.out.println("MemberService join test");
         Member member = new Member(1L, "memberA", Grade.VIP);
-        
-        // when
+
         memberService.join(member);
         Member findMember = memberService.findMember(1L);
-        
-        // then
+
+        System.out.println(member);
+        System.out.println(findMember);
         Assertions.assertThat(member).isEqualTo(findMember);
+
     }
 }

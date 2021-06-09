@@ -1,5 +1,10 @@
 package project.order;
 
+/**
+ * OrderService
+ */
 public interface OrderService {
-    Order createOrder(Long memberId, String itemName, int itemPrice);
+
+    Order creatOrder(Long memberId, String itemName, int itemPrice);
+
 }

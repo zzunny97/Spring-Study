@@ -2,11 +2,11 @@ package project.discount;
 
 import project.member.Member;
 
+/**
+ * DiscountPolicy
+ */
 public interface DiscountPolicy {
-    
-    /*
-        return: 할인 대상 금액
-    */
+
+    // @return : price that will be discounted
     int discount(Member member, int price);
-    
 }
