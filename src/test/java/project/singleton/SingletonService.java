@@ -4,6 +4,7 @@ import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import project.AppConfig;
@@ -51,6 +52,7 @@ public class SingletonService {
         System.out.println("memberService2= " + memberService2);
 
         Assertions.assertThat(memberService1).isSameAs(memberService2);
+        ((ConfigurableApplicationContext) ac).close();
     }
 
 }
