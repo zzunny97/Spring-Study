@@ -1,6 +1,7 @@
 package project;
 
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import project.member.Grade;
@@ -23,5 +24,6 @@ public class MemberApp {
         System.out.println("new member = " + member.getName());
         System.out.println("find member = " + findMember.getName());
 
+        ((ConfigurableApplicationContext) ac).close();
     }
 }

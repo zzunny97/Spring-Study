@@ -1,6 +1,7 @@
 package project;
 
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import project.member.Grade;
@@ -26,5 +27,6 @@ public class OrderApp {
         Order order = orderService.creatOrder(memberId, "itemA", 10000);
         System.out.println("order = " + order);
 
+        ((ConfigurableApplicationContext) ac).close();
     }
 }
