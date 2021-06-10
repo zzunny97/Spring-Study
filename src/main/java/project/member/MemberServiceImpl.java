@@ -11,11 +11,6 @@ public class MemberServiceImpl implements MemberService {
 
     private final MemberRepository memberRepository;
 
-    // For test : ConfigurationSingletonTest.java
-    public MemberRepository getMemberRepository() {
-        return memberRepository;
-    }
-
     @Autowired
     public MemberServiceImpl(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
@@ -29,4 +24,8 @@ public class MemberServiceImpl implements MemberService {
         return memberRepository.findById(memberId);
     }
 
+    // For test : ConfigurationSingletonTest.java
+    public MemberRepository getMemberRepository() {
+        return memberRepository;
+    }
 }
