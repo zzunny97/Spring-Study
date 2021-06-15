@@ -1,0 +1,189 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AppConfig	main/java/project/AppConfig.java	/^public class AppConfig {$/;"	c
+Application	main/java/project/Application.java	/^public class Application {$/;"	c
+ApplicationContextBasicFindTest	test/java/project/beanfind/ApplicationContextBasicFindTest.java	/^public class ApplicationContextBasicFindTest {$/;"	c
+ApplicationContextExtendsFindTest	test/java/project/beanfind/ApplicationContextExtendsFindTest.java	/^public class ApplicationContextExtendsFindTest {$/;"	c
+ApplicationContextInfoTest	test/java/project/beanfind/ApplicationContextInfoTest.java	/^public class ApplicationContextInfoTest {$/;"	c
+ApplicationContextSameBeanFindTest	test/java/project/beanfind/ApplicationContextSameBeanFindTest.java	/^public class ApplicationContextSameBeanFindTest {$/;"	c
+ApplicationTests	test/java/project/ApplicationTests.java	/^class ApplicationTests {$/;"	c
+AutoAppConfig	main/java/project/AutoAppConfig.java	/^public class AutoAppConfig {$/;"	c
+AutoAppConfigTest	test/java/project/scan/AutoAppConfigTest.java	/^public class AutoAppConfigTest {$/;"	c
+BASIC	main/java/project/member/Grade.java	/^    BASIC,$/;"	e	enum:Grade	file:
+BeanA	test/java/project/scan/filter/BeanA.java	/^public class BeanA {$/;"	c
+BeanB	test/java/project/scan/filter/BeanB.java	/^public class BeanB {$/;"	c
+BeanDefinitionTest	test/java/project/beandefinition/BeanDefinitionTest.java	/^public class BeanDefinitionTest {$/;"	c
+ComponentFilterAppConfig	test/java/project/scan/filter/ComponentFilterAppConfigTest.java	/^    static class ComponentFilterAppConfig {$/;"	c	class:ComponentFilterAppConfigTest
+ComponentFilterAppConfigTest	test/java/project/scan/filter/ComponentFilterAppConfigTest.java	/^public class ComponentFilterAppConfigTest {$/;"	c
+ConfigurationSingletonTest	test/java/project/singleton/ConfigurationSingletonTest.java	/^public class ConfigurationSingletonTest {$/;"	c
+DiscountPolicy	main/java/project/discount/DiscountPolicy.java	/^public interface DiscountPolicy {$/;"	i
+FixDiscountPolicy	main/java/project/discount/FixDiscountPolicy.java	/^public class FixDiscountPolicy implements DiscountPolicy {$/;"	c
+Grade	main/java/project/member/Grade.java	/^public enum Grade {$/;"	g
+Member	main/java/project/member/Member.java	/^    public Member(Long id, String name, Grade grade) {$/;"	m	class:Member
+Member	main/java/project/member/Member.java	/^public class Member {$/;"	c
+MemberApp	main/java/project/MemberApp.java	/^public class MemberApp {$/;"	c
+MemberRepository	main/java/project/member/MemberRepository.java	/^public interface MemberRepository {$/;"	i
+MemberService	main/java/project/member/MemberService.java	/^public interface MemberService {$/;"	i
+MemberServiceImpl	main/java/project/member/MemberServiceImpl.java	/^    public MemberServiceImpl(MemberRepository memberRepository) {$/;"	m	class:MemberServiceImpl
+MemberServiceImpl	main/java/project/member/MemberServiceImpl.java	/^public class MemberServiceImpl implements MemberService {$/;"	c
+MemberServiceTest	test/java/project/member/MemberServiceTest.java	/^class MemberServiceTest {$/;"	c
+MemoryMemberRepository	main/java/project/member/MemoryMemberRepository.java	/^public class MemoryMemberRepository implements MemberRepository {$/;"	c
+MyExcludeComponent	test/java/project/scan/filter/MyExcludeComponent.java	/^public @interface MyExcludeComponent {$/;"	i
+MyIncludeComponent	test/java/project/scan/filter/MyIncludeComponent.java	/^public @interface MyIncludeComponent {$/;"	i
+Order	main/java/project/order/Order.java	/^    public Order(Long memberId, String itemName, int itemPrice, int discountPrice) {$/;"	m	class:Order
+Order	main/java/project/order/Order.java	/^public class Order {$/;"	c
+OrderApp	main/java/project/OrderApp.java	/^public class OrderApp {$/;"	c
+OrderService	main/java/project/order/OrderService.java	/^public interface OrderService {$/;"	i
+OrderServiceImpl	main/java/project/order/OrderServiceImpl.java	/^    public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {$/;"	m	class:OrderServiceImpl
+OrderServiceImpl	main/java/project/order/OrderServiceImpl.java	/^public class OrderServiceImpl implements OrderService {$/;"	c
+OrderServiceTest	test/java/project/order/OrderServiceTest.java	/^class OrderServiceTest {$/;"	c
+RateDiscountPolicy	main/java/project/discount/RateDiscountPolicy.java	/^public class RateDiscountPolicy implements DiscountPolicy {$/;"	c
+RateDiscountPolicyTest	test/java/project/discount/RateDiscountPolicyTest.java	/^public class RateDiscountPolicyTest {$/;"	c
+SameBeanConfig	test/java/project/beanfind/ApplicationContextSameBeanFindTest.java	/^    static class SameBeanConfig {$/;"	c	class:ApplicationContextSameBeanFindTest
+SingletonService	test/java/project/singleton/SingletonService.java	/^    private SingletonService() {$/;"	m	class:SingletonService	file:
+SingletonService	test/java/project/singleton/SingletonService.java	/^public class SingletonService {$/;"	c
+SingletonTest	test/java/project/singleton/SingletonTest.java	/^public class SingletonTest {$/;"	c
+StatefulService	test/java/project/singleton/StatefulService.java	/^public class StatefulService {$/;"	c
+StatefulServiceTest	test/java/project/singleton/StatefulServiceTest.java	/^public class StatefulServiceTest {$/;"	c
+TestConfig	test/java/project/beanfind/ApplicationContextExtendsFindTest.java	/^    static class TestConfig {$/;"	c	class:ApplicationContextExtendsFindTest
+TestConfig	test/java/project/singleton/StatefulServiceTest.java	/^    static class TestConfig {$/;"	c	class:StatefulServiceTest
+VIP	main/java/project/member/Grade.java	/^    VIP$/;"	e	enum:Grade	file:
+ac	test/java/project/beandefinition/BeanDefinitionTest.java	/^    AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);$/;"	f	class:BeanDefinitionTest
+ac	test/java/project/beanfind/ApplicationContextBasicFindTest.java	/^    AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);$/;"	f	class:ApplicationContextBasicFindTest
+ac	test/java/project/beanfind/ApplicationContextExtendsFindTest.java	/^    AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(TestConfig.class);$/;"	f	class:ApplicationContextExtendsFindTest
+ac	test/java/project/beanfind/ApplicationContextInfoTest.java	/^    AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);$/;"	f	class:ApplicationContextInfoTest
+ac	test/java/project/beanfind/ApplicationContextSameBeanFindTest.java	/^    AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(SameBeanConfig.class);$/;"	f	class:ApplicationContextSameBeanFindTest
+appConfig	test/java/project/member/MemberServiceTest.java	/^    AppConfig appConfig = new AppConfig();$/;"	f	class:MemberServiceTest
+appConfig	test/java/project/order/OrderServiceTest.java	/^    AppConfig appConfig = new AppConfig();$/;"	f	class:OrderServiceTest
+basicScan	test/java/project/scan/AutoAppConfigTest.java	/^    void basicScan() {$/;"	m	class:AutoAppConfigTest
+configurationTest	test/java/project/singleton/ConfigurationSingletonTest.java	/^    void configurationTest() {$/;"	m	class:ConfigurationSingletonTest
+contextLoads	test/java/project/ApplicationTests.java	/^	void contextLoads() {$/;"	m	class:ApplicationTests
+creatOrder	main/java/project/order/OrderService.java	/^    Order creatOrder(Long memberId, String itemName, int itemPrice);$/;"	m	interface:OrderService
+creatOrder	main/java/project/order/OrderServiceImpl.java	/^    public Order creatOrder(Long memberId, String itemName, int itemPrice) {$/;"	m	class:OrderServiceImpl
+creatOrder	test/java/project/order/OrderServiceTest.java	/^    void creatOrder() {$/;"	m	class:OrderServiceTest
+discount	main/java/project/discount/DiscountPolicy.java	/^    int discount(Member member, int price);$/;"	m	interface:DiscountPolicy
+discount	main/java/project/discount/FixDiscountPolicy.java	/^    public int discount(Member member, int price) {$/;"	m	class:FixDiscountPolicy
+discount	main/java/project/discount/RateDiscountPolicy.java	/^    public int discount(Member member, int price) {$/;"	m	class:RateDiscountPolicy
+discountFixAmount	main/java/project/discount/FixDiscountPolicy.java	/^    private int discountFixAmount = 1000;$/;"	f	class:FixDiscountPolicy	file:
+discountPercent	main/java/project/discount/RateDiscountPolicy.java	/^    private int discountPercent = 10;$/;"	f	class:RateDiscountPolicy	file:
+discountPolicy	main/java/project/AppConfig.java	/^    public DiscountPolicy discountPolicy() {$/;"	m	class:AppConfig
+discountPolicy	main/java/project/order/OrderServiceImpl.java	/^    private final DiscountPolicy discountPolicy;$/;"	f	class:OrderServiceImpl	file:
+discountPolicy	test/java/project/discount/RateDiscountPolicyTest.java	/^    RateDiscountPolicy discountPolicy = new RateDiscountPolicy();$/;"	f	class:RateDiscountPolicyTest
+discountPrice	main/java/project/order/Order.java	/^    private int discountPrice;$/;"	f	class:Order	file:
+filterScan	test/java/project/scan/filter/ComponentFilterAppConfigTest.java	/^    void filterScan() {$/;"	m	class:ComponentFilterAppConfigTest
+findAllBean	test/java/project/beanfind/ApplicationContextInfoTest.java	/^    void findAllBean() {$/;"	m	class:ApplicationContextInfoTest
+findAllBeanByObjectType	test/java/project/beanfind/ApplicationContextExtendsFindTest.java	/^    void findAllBeanByObjectType() {$/;"	m	class:ApplicationContextExtendsFindTest
+findAllBeanByType	test/java/project/beanfind/ApplicationContextSameBeanFindTest.java	/^    void findAllBeanByType() {$/;"	m	class:ApplicationContextSameBeanFindTest
+findApplicationBean	test/java/project/beandefinition/BeanDefinitionTest.java	/^    void findApplicationBean() {$/;"	m	class:BeanDefinitionTest
+findApplicationBean	test/java/project/beanfind/ApplicationContextInfoTest.java	/^    void findApplicationBean() {$/;"	m	class:ApplicationContextInfoTest
+findBeanByName	test/java/project/beanfind/ApplicationContextBasicFindTest.java	/^    void findBeanByName() {$/;"	m	class:ApplicationContextBasicFindTest
+findBeanByName2	test/java/project/beanfind/ApplicationContextBasicFindTest.java	/^    void findBeanByName2() {$/;"	m	class:ApplicationContextBasicFindTest
+findBeanByNameX	test/java/project/beanfind/ApplicationContextBasicFindTest.java	/^    void findBeanByNameX() {$/;"	m	class:ApplicationContextBasicFindTest
+findBeanByParentTypeByName	test/java/project/beanfind/ApplicationContextExtendsFindTest.java	/^    void findBeanByParentTypeByName() {$/;"	m	class:ApplicationContextExtendsFindTest
+findBeanByParentTypeDuplicate	test/java/project/beanfind/ApplicationContextExtendsFindTest.java	/^    void findBeanByParentTypeDuplicate() {$/;"	m	class:ApplicationContextExtendsFindTest
+findBeanBySubType	test/java/project/beanfind/ApplicationContextExtendsFindTest.java	/^    void findBeanBySubType() {$/;"	m	class:ApplicationContextExtendsFindTest
+findBeanByType	test/java/project/beanfind/ApplicationContextBasicFindTest.java	/^    void findBeanByType() {$/;"	m	class:ApplicationContextBasicFindTest
+findBeanByTypeDuplicate	test/java/project/beanfind/ApplicationContextSameBeanFindTest.java	/^    void findBeanByTypeDuplicate() {$/;"	m	class:ApplicationContextSameBeanFindTest
+findBeanByname	test/java/project/beanfind/ApplicationContextSameBeanFindTest.java	/^    void findBeanByname() {$/;"	m	class:ApplicationContextSameBeanFindTest
+findById	main/java/project/member/MemberRepository.java	/^    Member findById(Long memberId);$/;"	m	interface:MemberRepository
+findById	main/java/project/member/MemoryMemberRepository.java	/^    public Member findById(Long memberId) {$/;"	m	class:MemoryMemberRepository
+findMember	main/java/project/member/MemberService.java	/^    Member findMember(Long memberId);$/;"	m	interface:MemberService
+findMember	main/java/project/member/MemberServiceImpl.java	/^    public Member findMember(Long memberId) {$/;"	m	class:MemberServiceImpl
+fixDiscountPolicy	test/java/project/beanfind/ApplicationContextExtendsFindTest.java	/^        public DiscountPolicy fixDiscountPolicy() {$/;"	m	class:ApplicationContextExtendsFindTest.TestConfig
+getDiscountPrice	main/java/project/order/Order.java	/^    public int getDiscountPrice() {$/;"	m	class:Order
+getGrade	main/java/project/member/Member.java	/^    public Grade getGrade() {$/;"	m	class:Member
+getId	main/java/project/member/Member.java	/^    public Long getId() {$/;"	m	class:Member
+getInstance	test/java/project/singleton/SingletonService.java	/^    public static SingletonService getInstance() {$/;"	m	class:SingletonService
+getItemName	main/java/project/order/Order.java	/^    public String getItemName() {$/;"	m	class:Order
+getItemPrice	main/java/project/order/Order.java	/^    public int getItemPrice() {$/;"	m	class:Order
+getMemberId	main/java/project/order/Order.java	/^    public Long getMemberId() {$/;"	m	class:Order
+getMemberRepository	main/java/project/member/MemberServiceImpl.java	/^    public MemberRepository getMemberRepository() {$/;"	m	class:MemberServiceImpl
+getMemberRepository	main/java/project/order/OrderServiceImpl.java	/^    public MemberRepository getMemberRepository() {$/;"	m	class:OrderServiceImpl
+getName	main/java/project/member/Member.java	/^    public String getName() {$/;"	m	class:Member
+getPrice	test/java/project/singleton/StatefulService.java	/^    public int getPrice() {$/;"	m	class:StatefulService
+grade	main/java/project/member/Member.java	/^    private Grade grade;$/;"	f	class:Member	file:
+id	main/java/project/member/Member.java	/^    private Long id;$/;"	f	class:Member	file:
+instance	test/java/project/singleton/SingletonService.java	/^    private static final SingletonService instance = new SingletonService();$/;"	f	class:SingletonService	file:
+itemName	main/java/project/order/Order.java	/^    private String itemName;$/;"	f	class:Order	file:
+itemPrice	main/java/project/order/Order.java	/^    private int itemPrice;$/;"	f	class:Order	file:
+join	main/java/project/member/MemberService.java	/^    void join(Member member);$/;"	m	interface:MemberService
+join	main/java/project/member/MemberServiceImpl.java	/^    public void join(Member member) {$/;"	m	class:MemberServiceImpl
+join	test/java/project/member/MemberServiceTest.java	/^    void join() {$/;"	m	class:MemberServiceTest
+logic	test/java/project/singleton/SingletonService.java	/^    public void logic() {$/;"	m	class:SingletonService
+main	main/java/project/Application.java	/^	public static void main(String[] args) {$/;"	m	class:Application
+main	main/java/project/MemberApp.java	/^    public static void main(String[] args) {$/;"	m	class:MemberApp
+main	main/java/project/OrderApp.java	/^    public static void main(String[] args) {$/;"	m	class:OrderApp
+memberId	main/java/project/order/Order.java	/^    private Long memberId;$/;"	f	class:Order	file:
+memberRepository	main/java/project/AppConfig.java	/^    public MemberRepository memberRepository() {$/;"	m	class:AppConfig
+memberRepository	main/java/project/member/MemberServiceImpl.java	/^    private final MemberRepository memberRepository;$/;"	f	class:MemberServiceImpl	file:
+memberRepository	main/java/project/order/OrderServiceImpl.java	/^    private final MemberRepository memberRepository;$/;"	f	class:OrderServiceImpl	file:
+memberRepository1	test/java/project/beanfind/ApplicationContextSameBeanFindTest.java	/^        public MemberRepository memberRepository1() {$/;"	m	class:ApplicationContextSameBeanFindTest.SameBeanConfig
+memberRepository2	test/java/project/beanfind/ApplicationContextSameBeanFindTest.java	/^        public MemberRepository memberRepository2() {$/;"	m	class:ApplicationContextSameBeanFindTest.SameBeanConfig
+memberService	main/java/project/AppConfig.java	/^    public MemberService memberService() {$/;"	m	class:AppConfig
+memberService	test/java/project/member/MemberServiceTest.java	/^    MemberService memberService = appConfig.memberService();$/;"	f	class:MemberServiceTest
+memberService	test/java/project/order/OrderServiceTest.java	/^    MemberService memberService = appConfig.memberService();$/;"	f	class:OrderServiceTest
+name	main/java/project/member/Member.java	/^    private String name;$/;"	f	class:Member	file:
+order	test/java/project/singleton/StatefulService.java	/^    public void order(String name, int price) {$/;"	m	class:StatefulService
+orderService	main/java/project/AppConfig.java	/^    public OrderService orderService() {$/;"	m	class:AppConfig
+orderService	test/java/project/order/OrderServiceTest.java	/^    OrderService orderService = appConfig.orderService();$/;"	f	class:OrderServiceTest
+price	test/java/project/singleton/StatefulService.java	/^    private int price;$/;"	f	class:StatefulService	file:
+project	main/java/project/AppConfig.java	/^package project;$/;"	p
+project	main/java/project/Application.java	/^package project;$/;"	p
+project	main/java/project/AutoAppConfig.java	/^package project;$/;"	p
+project	main/java/project/MemberApp.java	/^package project;$/;"	p
+project	main/java/project/OrderApp.java	/^package project;$/;"	p
+project	test/java/project/ApplicationTests.java	/^package project;$/;"	p
+project.beandefinition	test/java/project/beandefinition/BeanDefinitionTest.java	/^package project.beandefinition;$/;"	p
+project.beanfind	test/java/project/beanfind/ApplicationContextBasicFindTest.java	/^package project.beanfind;$/;"	p
+project.beanfind	test/java/project/beanfind/ApplicationContextExtendsFindTest.java	/^package project.beanfind;$/;"	p
+project.beanfind	test/java/project/beanfind/ApplicationContextInfoTest.java	/^package project.beanfind;$/;"	p
+project.beanfind	test/java/project/beanfind/ApplicationContextSameBeanFindTest.java	/^package project.beanfind;$/;"	p
+project.discount	main/java/project/discount/DiscountPolicy.java	/^package project.discount;$/;"	p
+project.discount	main/java/project/discount/FixDiscountPolicy.java	/^package project.discount;$/;"	p
+project.discount	main/java/project/discount/RateDiscountPolicy.java	/^package project.discount;$/;"	p
+project.discount	test/java/project/discount/RateDiscountPolicyTest.java	/^package project.discount;$/;"	p
+project.member	main/java/project/member/Grade.java	/^package project.member;$/;"	p
+project.member	main/java/project/member/Member.java	/^package project.member;$/;"	p
+project.member	main/java/project/member/MemberRepository.java	/^package project.member;$/;"	p
+project.member	main/java/project/member/MemberService.java	/^package project.member;$/;"	p
+project.member	main/java/project/member/MemberServiceImpl.java	/^package project.member;$/;"	p
+project.member	main/java/project/member/MemoryMemberRepository.java	/^package project.member;$/;"	p
+project.member	test/java/project/member/MemberServiceTest.java	/^package project.member;$/;"	p
+project.order	main/java/project/order/Order.java	/^package project.order;$/;"	p
+project.order	main/java/project/order/OrderService.java	/^package project.order;$/;"	p
+project.order	main/java/project/order/OrderServiceImpl.java	/^package project.order;$/;"	p
+project.order	test/java/project/order/OrderServiceTest.java	/^package project.order;$/;"	p
+project.scan	test/java/project/scan/AutoAppConfigTest.java	/^package project.scan;$/;"	p
+project.scan.filter	test/java/project/scan/filter/BeanA.java	/^package project.scan.filter;$/;"	p
+project.scan.filter	test/java/project/scan/filter/BeanB.java	/^package project.scan.filter;$/;"	p
+project.scan.filter	test/java/project/scan/filter/ComponentFilterAppConfigTest.java	/^package project.scan.filter;$/;"	p
+project.scan.filter	test/java/project/scan/filter/MyExcludeComponent.java	/^package project.scan.filter;$/;"	p
+project.scan.filter	test/java/project/scan/filter/MyIncludeComponent.java	/^package project.scan.filter;$/;"	p
+project.singleton	test/java/project/singleton/ConfigurationSingletonTest.java	/^package project.singleton;$/;"	p
+project.singleton	test/java/project/singleton/SingletonService.java	/^package project.singleton;$/;"	p
+project.singleton	test/java/project/singleton/SingletonTest.java	/^package project.singleton;$/;"	p
+project.singleton	test/java/project/singleton/StatefulService.java	/^package project.singleton;$/;"	p
+project.singleton	test/java/project/singleton/StatefulServiceTest.java	/^package project.singleton;$/;"	p
+pureContainer	test/java/project/singleton/SingletonTest.java	/^    void pureContainer() {$/;"	m	class:SingletonTest
+rateDiscountPolicy	test/java/project/beanfind/ApplicationContextExtendsFindTest.java	/^        public DiscountPolicy rateDiscountPolicy() {$/;"	m	class:ApplicationContextExtendsFindTest.TestConfig
+save	main/java/project/member/MemberRepository.java	/^    void save(Member member);$/;"	m	interface:MemberRepository
+save	main/java/project/member/MemoryMemberRepository.java	/^    public void save(Member member) {$/;"	m	class:MemoryMemberRepository
+setDiscountPrice	main/java/project/order/Order.java	/^    public void setDiscountPrice(int discountPrice) {$/;"	m	class:Order
+setGrade	main/java/project/member/Member.java	/^    public void setGrade(Grade grade) {$/;"	m	class:Member
+setId	main/java/project/member/Member.java	/^    public void setId(Long id) {$/;"	m	class:Member
+setItemName	main/java/project/order/Order.java	/^    public void setItemName(String itemName) {$/;"	m	class:Order
+setItemPrice	main/java/project/order/Order.java	/^    public void setItemPrice(int itemPrice) {$/;"	m	class:Order
+setMemberId	main/java/project/order/Order.java	/^    public void setMemberId(Long memberId) {$/;"	m	class:Order
+setName	main/java/project/member/Member.java	/^    public void setName(String name) {$/;"	m	class:Member
+singletonServiceTest	test/java/project/singleton/SingletonService.java	/^    public void singletonServiceTest() {$/;"	m	class:SingletonService
+springContainer	test/java/project/singleton/SingletonService.java	/^    void springContainer() {$/;"	m	class:SingletonService
+statefulService	test/java/project/singleton/StatefulServiceTest.java	/^        public StatefulService statefulService() {$/;"	m	class:StatefulServiceTest.TestConfig
+statefulServiceSingleton	test/java/project/singleton/StatefulServiceTest.java	/^    void statefulServiceSingleton() {$/;"	m	class:StatefulServiceTest
+store	main/java/project/member/MemoryMemberRepository.java	/^    private static Map<Long, Member> store = new HashMap<>();$/;"	f	class:MemoryMemberRepository	file:
+toString	main/java/project/order/Order.java	/^    public String toString() {$/;"	m	class:Order
+vip_o	test/java/project/discount/RateDiscountPolicyTest.java	/^    void vip_o() {$/;"	m	class:RateDiscountPolicyTest
+vip_x	test/java/project/discount/RateDiscountPolicyTest.java	/^    void vip_x() {$/;"	m	class:RateDiscountPolicyTest
